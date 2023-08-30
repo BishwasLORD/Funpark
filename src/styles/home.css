@@ -58,13 +58,32 @@ height: 2.3rem;
         
 }
 
+.featured__park-title {
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+.gallery__Title{
+    font-size: 2.3rem;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+}
+
+.masonry__img{
+    transition: .3s;
+}
+
+.masonry__img:hover{
+    transform: scale(1.1);
+}
 
 
 
 
-
-
-
+.testimonial__title{
+    font-size: 2.3rem;
+    margin-top: 1rem;
+}
 
 
 

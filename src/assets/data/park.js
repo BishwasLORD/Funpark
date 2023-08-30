@@ -1,17 +1,19 @@
-import tourImg01 from "../images/tour-img01.jpg";
-import tourImg02 from "../images/tour-img02.jpg";
-import tourImg03 from "../images/tour-img03.jpg";
-import tourImg04 from "../images/tour-img04.jpg";
-import tourImg05 from "../images/tour-img05.jpg";
-import tourImg06 from "../images/tour-img06.jpg";
-import tourImg07 from "../images/tour-img07.jpg";
+import tourImg01 from "../images/pexels6.jpg";
+import tourImg02 from "../images/park3.jpg";
+import tourImg03 from "../images/park2.jpg";
+import tourImg04 from "../images/park4.jpg";
+import tourImg05 from "../images/pexcellll.jpg";
+import tourImg06 from "../images/park6.jpg";
+import tourImg07 from "../images/pexels.jpg";
+import tourImg08 from "../images/pexels1.jpg";
 
-const tours = [
+const park = [
   {
     id: "01",
-    title: "Westminister Bridge",
-    city: "London",
+    title: "Street Of Park",
+    city: "Chitwan, Nepal",
     distance: 300,
+    address: 'Around Near',
     price: 99,
     maxGroupSize: 10,
     desc: "this is the description",
@@ -27,9 +29,10 @@ const tours = [
   },
   {
     id: "02",
-    title: "Bali, Indonesia",
-    city: "Indonesia",
+    title: "Night View of Park",
+    city: "Chitwan, Nepal",
     distance: 400,
+    address: 'Around Near',
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
@@ -45,9 +48,10 @@ const tours = [
   },
   {
     id: "03",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
+    title: "Cup Roller",
+    city: "Chitwan, Nepal",
     distance: 500,
+    address: 'Around Near',
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
@@ -63,9 +67,10 @@ const tours = [
   },
   {
     id: "04",
-    title: "Beautiful Sunrise, Thailand",
-    city: "Thailand",
+    title: "Water Park Area",
+    city: "Chitwan, Nepal",
     distance: 500,
+    address: 'Around Near',
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
@@ -81,9 +86,10 @@ const tours = [
   },
   {
     id: "05",
-    title: "Nusa Pendia Bali, Indonesia",
-    city: "Indonesia",
+    title: "Beautiful  Park Area",
+    city: "Chitwan, Nepal",
     distance: 500,
+    address: 'Around Near',
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
@@ -99,9 +105,10 @@ const tours = [
   },
   {
     id: "06",
-    title: "Cherry Blossoms Spring",
-    city: "Japan",
+    title: "Long Track",
+    city: "Chitwan, Nepal",
     distance: 500,
+    address: 'Around Near',
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
@@ -110,6 +117,10 @@ const tours = [
         name: "jhon doe",
         rating: 4.6,
       },
+      {
+        name: "jhon doe",
+        rating: 5.6,
+      },
     ],
     avgRating: 4.5,
     photo: tourImg06,
@@ -117,9 +128,10 @@ const tours = [
   },
   {
     id: "07",
-    title: "Holmen Lofoten",
-    city: "France",
+    title: "Water Game Area",
+    city: "Chitwan, Nepal",
     distance: 500,
+    address: 'Around Near',
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
@@ -135,22 +147,20 @@ const tours = [
   },
   {
     id: "08",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
+    title: "Our Jokers",
+    city: "Chitwan, Nepal",
     distance: 500,
+    address: 'Around Near',
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
+     
     ],
     avgRating: 4.5,
-    photo: tourImg03,
+    photo: tourImg08,
     featured: false,
   },
 ];
 
-export default tours;
+export default park;
